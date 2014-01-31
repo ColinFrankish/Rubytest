@@ -1,0 +1,3 @@
+Task is to reopen the Array class and then rewrite the inject method under
+a new name. 
+We can assume a block is always given. 
