@@ -3,16 +3,13 @@ require './lib/Array_inject'
 describe 'Array' do
   
   let(:array) {Array.new}
-
-  #it " should combine all elements of enum" do
-
-  #end
-  it 'should have a method called implant' do
-    expect(array.implant).to eq(nil)
+  
+  it 'should return 6 when passed 0 ' do
+    array = [1,2,3]
+    expect(array.implant(0)).to eq(6)
   end
+  
 
-  it 'should return 45 when passed (5..10 ' do
-    expect(array.implant).to eq 45
-
-  end
+  
+  
 end
