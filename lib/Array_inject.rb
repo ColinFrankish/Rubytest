@@ -19,7 +19,7 @@ end
 
 
 
-
+#alternative solution: 
 #
 # class Array 
 

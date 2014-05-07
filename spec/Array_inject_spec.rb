@@ -1,3 +1,4 @@
+require 'rspec'
 require './lib/Array_inject'
 
 describe 'Array' do
